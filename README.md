@@ -2,10 +2,9 @@
 
 ## 利用方法
 1. PagingViewController/PagingViewControllerLibにある3つファイルをコピペ
-- PagingViewController.swift
-- PagingDataController.swift
-- PagingCellViewController.swift
-
+	- PagingViewController.swift
+	- PagingDataController.swift
+	- PagingCellViewController.swift
 	<br /><br />
 	
 	
