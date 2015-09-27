@@ -12,7 +12,19 @@
 		A421F4F01B42D30C008B3ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A421F4EE1B42D30C008B3ED2 /* Main.storyboard */; };
 		A421F4F21B42D30C008B3ED2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A421F4F11B42D30C008B3ED2 /* Images.xcassets */; };
 		A421F4F51B42D30C008B3ED2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A421F4F31B42D30C008B3ED2 /* LaunchScreen.xib */; };
-		A421F5011B42D30C008B3ED2 /* PictEditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421F5001B42D30C008B3ED2 /* PictEditTests.swift */; };
+		A421F5011B42D30C008B3ED2 /* PagingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421F5001B42D30C008B3ED2 /* PagingViewControllerTests.swift */; };
+		A421F5151B436820008B3ED2 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421F5141B436820008B3ED2 /* TutorialViewController.swift */; };
+		A4717DEC1BB82C5C00B08356 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DEB1BB82C5C00B08356 /* pic1.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4717DEE1BB82CB200B08356 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DED1BB82CB200B08356 /* pic3.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4717DF01BB82CE000B08356 /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DEF1BB82CE000B08356 /* pic5.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4717DF21BB82CF100B08356 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DF11BB82CF100B08356 /* pic4.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4717DF41BB82D0500B08356 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DF31BB82D0500B08356 /* pic2.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4717DF61BB82D8F00B08356 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4717DF51BB82D8F00B08356 /* default.jpg */; settings = {ASSET_TAGS = (); }; };
+		A4F51EEA1B4565A60049CFDF /* PagingCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F51EE91B4565A60049CFDF /* PagingCellViewController.swift */; };
+		A4F51EED1B4566680049CFDF /* ImagePageCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F51EEC1B4566680049CFDF /* ImagePageCellViewController.swift */; };
+		A4F51EEF1B4566C10049CFDF /* PagingDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F51EEE1B4566C10049CFDF /* PagingDataController.swift */; };
+		A4F51EF11B4566ED0049CFDF /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F51EF01B4566ED0049CFDF /* PagingViewController.swift */; };
+		A4F51EF51B456CBD0049CFDF /* ImagePageCellLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F51EF41B456CBD0049CFDF /* ImagePageCellLastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A421F4E51B42D30C008B3ED2 /* PictEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A421F4E91B42D30C008B3ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A421F4EA1B42D30C008B3ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A421F4EC1B42D30C008B3ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A421F4E51B42D30C008B3ED2 /* PagingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421F4E91B42D30C008B3ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = PagingViewController/Info.plist; sourceTree = "<group>"; };
+		A421F4EA1B42D30C008B3ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PagingViewController/AppDelegate.swift; sourceTree = "<group>"; };
+		A421F4EC1B42D30C008B3ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = PagingViewController/ViewController.swift; sourceTree = "<group>"; };
 		A421F4EF1B42D30C008B3ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A421F4F11B42D30C008B3ED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A421F4F11B42D30C008B3ED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PagingViewController/Images.xcassets; sourceTree = "<group>"; };
 		A421F4F41B42D30C008B3ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A421F4FA1B42D30C008B3ED2 /* PictEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421F4FA1B42D30C008B3ED2 /* PagingViewController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingViewController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A421F4FF1B42D30C008B3ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A421F5001B42D30C008B3ED2 /* PictEditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictEditTests.swift; sourceTree = "<group>"; };
+		A421F5001B42D30C008B3ED2 /* PagingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewControllerTests.swift; sourceTree = "<group>"; };
+		A421F5141B436820008B3ED2 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialViewController.swift; path = PagingViewController/sample/TutorialViewController.swift; sourceTree = "<group>"; };
+		A4717DEB1BB82C5C00B08356 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		A4717DED1BB82CB200B08356 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		A4717DEF1BB82CE000B08356 /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		A4717DF11BB82CF100B08356 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		A4717DF31BB82D0500B08356 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		A4717DF51BB82D8F00B08356 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		A4F51EE91B4565A60049CFDF /* PagingCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingCellViewController.swift; path = PagingViewController/PagingViewControllerLib/PagingCellViewController.swift; sourceTree = "<group>"; };
+		A4F51EEC1B4566680049CFDF /* ImagePageCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePageCellViewController.swift; path = PagingViewController/sample/ImagePageCellViewController.swift; sourceTree = "<group>"; };
+		A4F51EEE1B4566C10049CFDF /* PagingDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingDataController.swift; path = PagingViewController/PagingViewControllerLib/PagingDataController.swift; sourceTree = "<group>"; };
+		A4F51EF01B4566ED0049CFDF /* PagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = PagingViewController/PagingViewControllerLib/PagingViewController.swift; sourceTree = "<group>"; };
+		A4F51EF41B456CBD0049CFDF /* ImagePageCellLastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePageCellLastViewController.swift; path = PagingViewController/sample/ImagePageCellLastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +83,8 @@
 		A421F4DC1B42D30C008B3ED2 = {
 			isa = PBXGroup;
 			children = (
-				A421F4E71B42D30C008B3ED2 /* PictEdit */,
-				A421F4FD1B42D30C008B3ED2 /* PictEditTests */,
+				A421F4E71B42D30C008B3ED2 /* PagingViewController */,
+				A421F4FD1B42D30C008B3ED2 /* PagingViewControllerTests */,
 				A421F4E61B42D30C008B3ED2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,23 +92,26 @@
 		A421F4E61B42D30C008B3ED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A421F4E51B42D30C008B3ED2 /* PictEdit.app */,
-				A421F4FA1B42D30C008B3ED2 /* PictEditTests.xctest */,
+				A421F4E51B42D30C008B3ED2 /* PagingViewController.app */,
+				A421F4FA1B42D30C008B3ED2 /* PagingViewController.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A421F4E71B42D30C008B3ED2 /* PictEdit */ = {
+		A421F4E71B42D30C008B3ED2 /* PagingViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A4F51EF61B45731E0049CFDF /* Images */,
 				A421F4EA1B42D30C008B3ED2 /* AppDelegate.swift */,
 				A421F4EC1B42D30C008B3ED2 /* ViewController.swift */,
+				A4F51EEB1B4565EE0049CFDF /* PagingSample */,
+				A46B37B41B5C10F100E25C8A /* PagingLib */,
 				A421F4EE1B42D30C008B3ED2 /* Main.storyboard */,
 				A421F4F11B42D30C008B3ED2 /* Images.xcassets */,
 				A421F4F31B42D30C008B3ED2 /* LaunchScreen.xib */,
 				A421F4E81B42D30C008B3ED2 /* Supporting Files */,
 			);
-			path = PictEdit;
+			name = PagingViewController;
 			sourceTree = "<group>";
 		};
 		A421F4E81B42D30C008B3ED2 /* Supporting Files */ = {
@@ -95,13 +122,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A421F4FD1B42D30C008B3ED2 /* PictEditTests */ = {
+		A421F4FD1B42D30C008B3ED2 /* PagingViewControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A421F5001B42D30C008B3ED2 /* PictEditTests.swift */,
+				A421F5001B42D30C008B3ED2 /* PagingViewControllerTests.swift */,
 				A421F4FE1B42D30C008B3ED2 /* Supporting Files */,
 			);
-			path = PictEditTests;
+			path = PagingViewControllerTests;
 			sourceTree = "<group>";
 		};
 		A421F4FE1B42D30C008B3ED2 /* Supporting Files */ = {
@@ -112,12 +139,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A46B37B41B5C10F100E25C8A /* PagingLib */ = {
+			isa = PBXGroup;
+			children = (
+				A4F51EF01B4566ED0049CFDF /* PagingViewController.swift */,
+				A4F51EEE1B4566C10049CFDF /* PagingDataController.swift */,
+				A4F51EE91B4565A60049CFDF /* PagingCellViewController.swift */,
+			);
+			name = PagingLib;
+			sourceTree = "<group>";
+		};
+		A4F51EEB1B4565EE0049CFDF /* PagingSample */ = {
+			isa = PBXGroup;
+			children = (
+				A421F5141B436820008B3ED2 /* TutorialViewController.swift */,
+				A4F51EEC1B4566680049CFDF /* ImagePageCellViewController.swift */,
+				A4F51EF41B456CBD0049CFDF /* ImagePageCellLastViewController.swift */,
+			);
+			name = PagingSample;
+			sourceTree = "<group>";
+		};
+		A4F51EF61B45731E0049CFDF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4717DEB1BB82C5C00B08356 /* pic1.jpg */,
+				A4717DF31BB82D0500B08356 /* pic2.jpg */,
+				A4717DED1BB82CB200B08356 /* pic3.jpg */,
+				A4717DF11BB82CF100B08356 /* pic4.jpg */,
+				A4717DEF1BB82CE000B08356 /* pic5.jpg */,
+				A4717DF51BB82D8F00B08356 /* default.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A421F4E41B42D30C008B3ED2 /* PictEdit */ = {
+		A421F4E41B42D30C008B3ED2 /* PagingViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A421F5041B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PictEdit" */;
+			buildConfigurationList = A421F5041B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PagingViewController" */;
 			buildPhases = (
 				A421F4E11B42D30C008B3ED2 /* Sources */,
 				A421F4E21B42D30C008B3ED2 /* Frameworks */,
@@ -127,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = PictEdit;
+			name = PagingViewController;
 			productName = PictEdit;
-			productReference = A421F4E51B42D30C008B3ED2 /* PictEdit.app */;
+			productReference = A421F4E51B42D30C008B3ED2 /* PagingViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A421F4F91B42D30C008B3ED2 /* PictEditTests */ = {
+		A421F4F91B42D30C008B3ED2 /* PagingViewControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A421F5071B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PictEditTests" */;
+			buildConfigurationList = A421F5071B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PagingViewControllerTests" */;
 			buildPhases = (
 				A421F4F61B42D30C008B3ED2 /* Sources */,
 				A421F4F71B42D30C008B3ED2 /* Frameworks */,
@@ -145,9 +205,9 @@
 			dependencies = (
 				A421F4FC1B42D30C008B3ED2 /* PBXTargetDependency */,
 			);
-			name = PictEditTests;
+			name = PagingViewControllerTests;
 			productName = PictEditTests;
-			productReference = A421F4FA1B42D30C008B3ED2 /* PictEditTests.xctest */;
+			productReference = A421F4FA1B42D30C008B3ED2 /* PagingViewController.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +216,12 @@
 		A421F4DD1B42D30C008B3ED2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = NextVanguard;
 				TargetAttributes = {
 					A421F4E41B42D30C008B3ED2 = {
@@ -168,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A421F4E01B42D30C008B3ED2 /* Build configuration list for PBXProject "PictEdit" */;
+			buildConfigurationList = A421F4E01B42D30C008B3ED2 /* Build configuration list for PBXProject "PagingViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A421F4E41B42D30C008B3ED2 /* PictEdit */,
-				A421F4F91B42D30C008B3ED2 /* PictEditTests */,
+				A421F4E41B42D30C008B3ED2 /* PagingViewController */,
+				A421F4F91B42D30C008B3ED2 /* PagingViewControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,8 +258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A421F4F01B42D30C008B3ED2 /* Main.storyboard in Resources */,
+				A4717DF41BB82D0500B08356 /* pic2.jpg in Resources */,
 				A421F4F51B42D30C008B3ED2 /* LaunchScreen.xib in Resources */,
 				A421F4F21B42D30C008B3ED2 /* Images.xcassets in Resources */,
+				A4717DEC1BB82C5C00B08356 /* pic1.jpg in Resources */,
+				A4717DF21BB82CF100B08356 /* pic4.jpg in Resources */,
+				A4717DEE1BB82CB200B08356 /* pic3.jpg in Resources */,
+				A4717DF01BB82CE000B08356 /* pic5.jpg in Resources */,
+				A4717DF61BB82D8F00B08356 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F51EEA1B4565A60049CFDF /* PagingCellViewController.swift in Sources */,
+				A4F51EF11B4566ED0049CFDF /* PagingViewController.swift in Sources */,
 				A421F4ED1B42D30C008B3ED2 /* ViewController.swift in Sources */,
+				A421F5151B436820008B3ED2 /* TutorialViewController.swift in Sources */,
 				A421F4EB1B42D30C008B3ED2 /* AppDelegate.swift in Sources */,
+				A4F51EF51B456CBD0049CFDF /* ImagePageCellLastViewController.swift in Sources */,
+				A4F51EEF1B4566C10049CFDF /* PagingDataController.swift in Sources */,
+				A4F51EED1B4566680049CFDF /* ImagePageCellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A421F5011B42D30C008B3ED2 /* PictEditTests.swift in Sources */,
+				A421F5011B42D30C008B3ED2 /* PagingViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		A421F4FC1B42D30C008B3ED2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A421F4E41B42D30C008B3ED2 /* PictEdit */;
+			target = A421F4E41B42D30C008B3ED2 /* PagingViewController */;
 			targetProxy = A421F4FB1B42D30C008B3ED2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -242,6 +319,7 @@
 				A421F4EF1B42D30C008B3ED2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = PagingViewController;
 			sourceTree = "<group>";
 		};
 		A421F4F31B42D30C008B3ED2 /* LaunchScreen.xib */ = {
@@ -250,6 +328,7 @@
 				A421F4F41B42D30C008B3ED2 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = PagingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +355,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,9 +422,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PictEdit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PagingViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextvanguard.ha1f.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PagingViewController;
 			};
 			name = Debug;
 		};
@@ -352,9 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PictEdit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PagingViewController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextvanguard.ha1f.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PagingViewController;
 			};
 			name = Release;
 		};
@@ -370,10 +454,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PictEditTests/Info.plist;
+				INFOPLIST_FILE = PagingViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictEdit.app/PictEdit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextvanguard.ha1f.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PagingViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingViewController.app/PagingViewController";
 			};
 			name = Debug;
 		};
@@ -385,17 +470,18 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PictEditTests/Info.plist;
+				INFOPLIST_FILE = PagingViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictEdit.app/PictEdit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextvanguard.ha1f.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PagingViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagingViewController.app/PagingViewController";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A421F4E01B42D30C008B3ED2 /* Build configuration list for PBXProject "PictEdit" */ = {
+		A421F4E01B42D30C008B3ED2 /* Build configuration list for PBXProject "PagingViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A421F5021B42D30C008B3ED2 /* Debug */,
@@ -404,21 +490,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A421F5041B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PictEdit" */ = {
+		A421F5041B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PagingViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A421F5051B42D30C008B3ED2 /* Debug */,
 				A421F5061B42D30C008B3ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A421F5071B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PictEditTests" */ = {
+		A421F5071B42D30C008B3ED2 /* Build configuration list for PBXNativeTarget "PagingViewControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A421F5081B42D30C008B3ED2 /* Debug */,
 				A421F5091B42D30C008B3ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
